@@ -13,7 +13,7 @@ namespace HelloWordForGit
             Console.WriteLine("Hi! Welcome to the Git Tutorial");
             Console.WriteLine("GIT COMMANDS");
             Console.WriteLine("============");
-            foreach (var comm in GitCommands())
+            foreach (var comm in GitBasicCommands())
             {
                 Console.WriteLine(comm);
             }
@@ -22,9 +22,9 @@ namespace HelloWordForGit
             Console.ReadKey();
         }
 
-    public static string[]  GitCommands()
+    public static string[]  GitBasicCommands()
         {
-          string [] gitCommands = { "Git Clone", "Git status", "Git Add", "Git commit", "Git push", "git pull" };
+          string [] gitCommands = { "Git Clone", "Git Status", "Git Add", "Git Commit", "Git Push", "git Pull" };
 
           return gitCommands;
            
