@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<gitCommands> 
+  <clone>
+    <name>git clone  </name>  
+    <desc>copies repository to your local machine</desc>  
+  </clone>  
+  <add>
+    <name>git status </name>  
+    <desc>shows the diff b/n the local and server version</desc>  
+  </add> 
+  
+</gitCommands>
